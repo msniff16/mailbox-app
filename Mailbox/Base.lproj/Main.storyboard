@@ -48,6 +48,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="dPM-S6-6Jl" id="rab-XF-5b6"/>
                         <outlet property="scrollView" destination="2dE-82-6uo" id="IOe-gR-inr"/>
                     </connections>
                 </viewController>

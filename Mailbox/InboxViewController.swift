@@ -8,13 +8,16 @@
 
 import UIKit
 
-class InboxViewController: UIViewController {
+class InboxViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
     
     // view loaded
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollView.delegate = self
+        scrollView.contentSize = imageView.image!.size
     }
     
     
