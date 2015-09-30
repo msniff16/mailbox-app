@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D709B721BBC4CE100030464 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D709B711BBC4CE100030464 /* InboxViewController.swift */; };
 		8D94532B1BBC47B3000F123D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94532A1BBC47B3000F123D /* AppDelegate.swift */; };
 		8D9453301BBC47B3000F123D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D94532E1BBC47B3000F123D /* Main.storyboard */; };
 		8D9453321BBC47B3000F123D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9453311BBC47B3000F123D /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D709B711BBC4CE100030464 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		8D9453271BBC47B3000F123D /* Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D94532A1BBC47B3000F123D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D94532F1BBC47B3000F123D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				8D94532E1BBC47B3000F123D /* Main.storyboard */,
+				8D709B711BBC4CE100030464 /* InboxViewController.swift */,
 				8D9453581BBC48C6000F123D /* Supporting Files */,
 			);
 			path = Mailbox;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D94532B1BBC47B3000F123D /* AppDelegate.swift in Sources */,
+				8D709B721BBC4CE100030464 /* InboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailbox.mailbox.Mailbox;
@@ -403,7 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailbox.mailbox.Mailbox;
@@ -479,6 +483,7 @@
 				8D9453511BBC47B3000F123D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9453521BBC47B3000F123D /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +492,7 @@
 				8D9453541BBC47B3000F123D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9453551BBC47B3000F123D /* Build configuration list for PBXNativeTarget "MailboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +501,7 @@
 				8D9453571BBC47B3000F123D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
