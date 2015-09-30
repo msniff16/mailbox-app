@@ -12,5 +12,5 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![video](https://cloud.githubusercontent.com/assets/1372815/10106748/5bdbcfac-636b-11e5-8ccd-8953a0a6dda2.gif)
+![video](https://cloud.githubusercontent.com/assets/1372815/10206444/c00afc00-677b-11e5-9fec-25cc56d119d4.gif)
 
