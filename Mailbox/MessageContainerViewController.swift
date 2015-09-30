@@ -81,10 +81,20 @@ class MessageContainerViewController: UIViewController {
             // gesture stopped
             if panGestureRecognizer.state == UIGestureRecognizerState.Ended {
                 UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    
+                    print("x: \(point.x)")
+                    if((320 - point.x) > 60 && (320 - point.x) <= 260) {
+                        self.delegate?.rescheduleView.alpha = 1
+                    }
+                    else if((320 - point.x) > 260 && (320 - point.x) <= 310) {
+                        self.delegate?.listView.alpha = 1
+                    }
+                    
                     self.firstMessage.frame.origin.x = 0
                     self.containerView.backgroundColor = UIColor.groupTableViewBackgroundColor()
                     self.clockIcon.frame.origin.x = 290
                     self.swipeMotion = .Default
+                    
                 })
             }
             

@@ -14,6 +14,7 @@ class InboxViewController: UIViewController, UIScrollViewDelegate, UIGestureReco
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var messageContainer: UIView!
     @IBOutlet weak var rescheduleView: UIImageView!
+    @IBOutlet weak var listView: UIImageView!
     
     // view loaded
     override func viewDidLoad() {
@@ -44,5 +45,14 @@ class InboxViewController: UIViewController, UIScrollViewDelegate, UIGestureReco
         
     }
     
+    @IBAction func onListViewTap(sender: UITapGestureRecognizer) {
+        
+        listView.alpha = 0
+        self.messageContainer.frame = CGRectMake(0, 0, 320, 0)
+        
+        UIView.animateWithDuration(1.0, animations: {
+            self.messageContainer.frame = CGRectMake(0, 0, 320, 86)
+        })
+    }
     
 }

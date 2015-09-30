@@ -90,11 +90,20 @@
                                     <outletCollection property="gestureRecognizers" destination="K8e-KH-BQd" appends="YES" id="7br-91-NcK"/>
                                 </connections>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="list" id="LIR-Pn-phB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="keZ-07-CdR" appends="YES" id="Dxn-Gp-h1r"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="dPM-S6-6Jl" id="rab-XF-5b6"/>
+                        <outlet property="listView" destination="LIR-Pn-phB" id="wGk-Va-Cuz"/>
                         <outlet property="messageContainer" destination="1gM-0n-E7o" id="ql5-hb-Hq3"/>
                         <outlet property="rescheduleView" destination="h5e-2u-aH0" id="qVK-2U-v3r"/>
                         <outlet property="scrollView" destination="2dE-82-6uo" id="IOe-gR-inr"/>
@@ -104,6 +113,11 @@
                 <tapGestureRecognizer id="K8e-KH-BQd">
                     <connections>
                         <action selector="onRescheduleTap:" destination="BYZ-38-t0r" id="n6U-hU-iRT"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="keZ-07-CdR">
+                    <connections>
+                        <action selector="onListViewTap:" destination="BYZ-38-t0r" id="s6s-Lt-a6p"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -159,6 +173,7 @@
         <image name="feed" width="320" height="1202"/>
         <image name="help_label" width="320" height="37"/>
         <image name="later_icon" width="25" height="25"/>
+        <image name="list" width="320" height="568"/>
         <image name="mail_nav_icon" width="25" height="20"/>
         <image name="menu" width="320" height="568"/>
         <image name="message" width="320" height="86"/>
