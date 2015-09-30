@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8D709B721BBC4CE100030464 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D709B711BBC4CE100030464 /* InboxViewController.swift */; };
+		8D709B741BBC54C200030464 /* MessageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D709B731BBC54C200030464 /* MessageContainerViewController.swift */; };
+		8D709B761BBC6BF200030464 /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D709B751BBC6BF200030464 /* MainContainerViewController.swift */; };
 		8D94532B1BBC47B3000F123D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94532A1BBC47B3000F123D /* AppDelegate.swift */; };
 		8D9453301BBC47B3000F123D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D94532E1BBC47B3000F123D /* Main.storyboard */; };
 		8D9453321BBC47B3000F123D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9453311BBC47B3000F123D /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		8D709B711BBC4CE100030464 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		8D709B731BBC54C200030464 /* MessageContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContainerViewController.swift; sourceTree = "<group>"; };
+		8D709B751BBC6BF200030464 /* MainContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
 		8D9453271BBC47B3000F123D /* Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D94532A1BBC47B3000F123D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D94532F1BBC47B3000F123D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		8D9453291BBC47B3000F123D /* Mailbox */ = {
 			isa = PBXGroup;
 			children = (
-				8D94532E1BBC47B3000F123D /* Main.storyboard */,
+				8D709B751BBC6BF200030464 /* MainContainerViewController.swift */,
 				8D709B711BBC4CE100030464 /* InboxViewController.swift */,
+				8D709B731BBC54C200030464 /* MessageContainerViewController.swift */,
+				8D94532E1BBC47B3000F123D /* Main.storyboard */,
 				8D9453581BBC48C6000F123D /* Supporting Files */,
 			);
 			path = Mailbox;
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D94532B1BBC47B3000F123D /* AppDelegate.swift in Sources */,
+				8D709B761BBC6BF200030464 /* MainContainerViewController.swift in Sources */,
 				8D709B721BBC4CE100030464 /* InboxViewController.swift in Sources */,
+				8D709B741BBC54C200030464 /* MessageContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
